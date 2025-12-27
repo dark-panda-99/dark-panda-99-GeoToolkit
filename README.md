@@ -1,2 +1,32 @@
-# dark-panda-99-GeoToolkit
-A lightweight Python-based toolkit for extracting EXIF metadata and correlating geographical data points for OSINT research and visual attribution
+# 🐼 Geo-Panda-Toolkit
+
+A lightweight, open-source toolkit designed for correlating image metadata (EXIF) with geographical data points. This tool helps researchers identify where a photo was taken and maps it using public APIs.
+
+> **Status:** Work in Progress. Experimental version.
+
+## Features
+* Automated EXIF extraction.
+* Support for Google Maps and OpenStreetMap API.
+* Batch processing for directory-wide analysis.
+
+## Installation
+1. Clone the repo:
+   `git clone https://github.com/dark-panda-99/Geo-Panda-Toolkit.git`
+2. Install dependencies:
+   `pip install -r requirements.txt`
+
+## Usage
+Run the main script with the path to your image directory:
+`python main.py --dir ./evidence/`
+
+---
+
+## Author & Contributions
+I am **Li**, a security researcher and photography enthusiast based in **Beijing, China**. 
+
+I started this project to help the OSINT community better understand visual attribution. If you find bugs, want to collaborate, or have questions about the tool, feel free to reach out!
+
+📧 **Contact:** [lihu99@protonmail.com](mailto:lihu99@protonmail.com)
+
+---
+*Disclaimer: This tool is for educational and authorized research purposes only.*
