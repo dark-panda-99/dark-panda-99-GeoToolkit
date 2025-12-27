@@ -9,6 +9,10 @@ A lightweight, open-source toolkit designed for correlating image metadata (EXIF
 * Support for Google Maps and OpenStreetMap API.
 * Batch processing for directory-wide analysis.
 
+## Repository Structure
+* `main.py` - The **main** execution engine for metadata correlation, coordinate mapping, and API integration. **This file is crucial!**
+* `requirements.txt` - Configuration file containing all Python dependencies (e.g., `exifread`, `requests`) needed to run the toolkit.
+  
 ## Installation
 1. Clone the repo:
    `git clone https://github.com/dark-panda-99/Geo-Panda-Toolkit.git`
