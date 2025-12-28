@@ -11,7 +11,7 @@ A lightweight, open-source toolkit designed for correlating image metadata (EXIF
 
 ## Repository Structure
 * `main.py` - The **main** execution engine for metadata correlation, coordinate mapping, and API integration. **This file is crucial!**
-* `requirements.txt` - Configuration file containing all Python dependencies (e.g., `exifread`, `requests`) needed to run the toolkit.
+* `requirements.txt` - Configuration file containing all Python dependencies needed to run the toolkit.
   
 ## Installation
 1. Clone the repo:
@@ -29,8 +29,6 @@ Run the main script with the path to your image directory:
 I am **Li**, a security researcher and photography enthusiast based in **Beijing, China**. 
 
 I started this project to help the OSINT community better understand visual attribution. If you find bugs, want to collaborate, or have questions about the tool, feel free to reach out!
-
-📧 **Contact:** [lihu99@protonmail.com](mailto:lihu99@protonmail.com)
 
 ---
 *Disclaimer: This tool is for educational and authorized research purposes only.*
